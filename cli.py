@@ -1,4 +1,8 @@
-a = [343334,43434,3434,3,4,34,343,
-     34343434,
-      242422]
-assert a == 2
+'''meets the player'''
+name = None
+def welcome_to_brain_games():
+    '''meets the player'''
+    global name
+    print("Welcome to the Brain Games!")
+    name = input("May I have your name? ")
+    print(f"Hello, {name}!")
