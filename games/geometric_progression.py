@@ -1,3 +1,7 @@
+'''
+basically, made only for the class below
+'''
+
 import random
 
 class GeometricProgression:
@@ -28,6 +32,6 @@ class GeometricProgression:
     def get_answer(self):
         '''Get the replaced number'''
         return self.replaced_number
-    
+
     def is_correct_answer(self, answer):
         return answer == self.get_answer()

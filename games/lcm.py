@@ -36,7 +36,7 @@ class LeastCommonMultiple:
     def get_lcm(self):
         '''get the least common multiple for the generated numbers'''
         return self.lcm
-        
+
     def get_answer(self):
         '''get the answer as the least common multiple for the generated numbers'''
         return self.get_lcm()
