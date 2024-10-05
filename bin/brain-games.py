@@ -38,8 +38,8 @@ while True:
         if current_game.is_correct_answer(int(given_answer)):
             print('Correct!')
         else:
-            print(f'{given_answer} is wrong answer ;(. \
-            Correct answer was{current_game.get_answer()}')
+            print(f'{given_answer} is wrong answer. \
+            Correct answer was {current_game.get_answer()}')
             break
         if i == 2:
             print(f'Congratulations, {cli.name}!')
